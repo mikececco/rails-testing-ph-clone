@@ -1,0 +1,6 @@
+# products.yml
+<% 1.upto(5) do |i| %>
+product_<%= i %>:
+  name: <%= Faker::Company.name %>
+  tagline: <%= Faker::Company.catch_phrase %>
+<% end %>
